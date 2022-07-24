@@ -43,7 +43,7 @@ export default {
         })
       })
       .catch(() => {
-        this.$router.push({ name: 'NetworkError' })
+        next({ name: 'NetworkError' })
       })
   },
   computed: {
